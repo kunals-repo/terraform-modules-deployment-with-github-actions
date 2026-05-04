@@ -15,8 +15,8 @@ resource "azurerm_virtual_network" "vnet-block" {
 resource "azurerm_subnet" "subnet-block" {
   name                 = var.subnet
   resource_group_name  = azurerm_resource_group.rg-block.name
-  virtual_network_name = azurerm_virtual_network.vnet-block[each.key].name
-  address_prefixes     = [each.value.subnet_ip]
+  virtual_network_name = azurerm_virtual_network.vnet-block.name
+  address_prefixes     = [var.subnet-ip]
 }
 
 resource "azurerm_network_interface" "nic-block" {
