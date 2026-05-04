@@ -1,6 +1,6 @@
 
 resource "azurerm_resource_group" "rg-block" {
-  name     = "vm-rg"
+  name     = "vmrg"
   location = "eastus"
 }
 
