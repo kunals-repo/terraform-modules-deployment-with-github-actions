@@ -38,28 +38,7 @@ variable "vm-creation" {
         nic_name = "nic3"
         vm_name = "vm3"
         vm_password = "Newyear2026"      
-      }
-
-        "vm4" = {
-        vnet = "vnet4"
-        vnet_ip = "10.0.0.0/16"
-        subnet = "subnet4"
-        subnet_ip = "10.0.3.0/24"
-        nic_name = "nic4"
-        vm_name = "vm4"
-        vm_password = "Newyear2026"      
-      }
-
-        "vm5" = {
-        vnet = "vnet1"
-        vnet_ip = "10.0.0.0/16"
-        subnet = "subnet5"
-        subnet_ip = "10.0.4.0/24"
-        nic_name = "nic5"
-        vm_name = "vm5"
-        vm_password = "Newyear2026"      
-      }
-
+      } 
+      
     }
-  
 }
