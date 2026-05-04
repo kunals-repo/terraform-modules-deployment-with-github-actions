@@ -1,7 +1,7 @@
 
 resource "azurerm_resource_group" "rg-block" {
-  name     = "vmrg"
-  location = "Canada Central"
+  name     = "vm-rg"
+  location = "centralindia"
 }
 
 
