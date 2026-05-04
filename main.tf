@@ -39,7 +39,7 @@ resource "azurerm_windows_virtual_machine" "vm-block" {
   name                = each.value.vm_name
   resource_group_name = azurerm_resource_group.rg-block.name
   location            = azurerm_resource_group.rg-block.location
-  size                = "Standard_B2s"
+  size                = "Standard_D2s_v3"
   admin_username      = "kunal"
   admin_password      = each.value.vm_password
   network_interface_ids = [
