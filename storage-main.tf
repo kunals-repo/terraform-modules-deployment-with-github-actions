@@ -1,4 +1,13 @@
 
+terraform {
+  backend "azurerm" {
+    resource_group_name = "remote-backend-storage"
+    storage_account_name = "remotebackend0505"
+    container_name = "container1"
+    key = "prod.terraform.tfstate"
+  }
+}
+
 resource "azurerm_resource_group" "storage-rg" {
   name = "storage-rg"
   location = "eastus" 
