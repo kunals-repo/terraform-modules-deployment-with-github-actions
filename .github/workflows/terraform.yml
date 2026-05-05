@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - "main.tf"
+      - "storage-main.tf"
       
 
 
