@@ -5,3 +5,12 @@ variable "storage-name" {
 variable "replication-type" {
     type = string
 }
+variable "container-name" {
+    type = string
+}
+variable "blob-name" {
+    type = string
+}
+variable "blob-source" {
+    type = string
+}
