@@ -40,3 +40,14 @@ variable "blob-name2" {
 variable "blob-source2" {
     type = string
 }
+//=========================
+
+variable "container-name3" {
+    type = string
+}
+variable "blob-name3" {
+    type = string
+}
+variable "blob-source3" {
+    type = string
+}
