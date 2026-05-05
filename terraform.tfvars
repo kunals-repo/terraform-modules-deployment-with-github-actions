@@ -6,4 +6,4 @@ blob-name = "jan2026"
 blob-source = "/home/kunal/actions-runner/jan2026.text"
 
 storage-name2 = "casualleavesdata"
-replication-type2 = "LRS"
+replication-type2 = "ZRS"
