@@ -1,6 +1,6 @@
 
 resource "azurerm_resource_group" "storage-rg" {
-  name = "Storage-rg"
+  name = "storage-rg"
   location = "eastus" 
 }
 
