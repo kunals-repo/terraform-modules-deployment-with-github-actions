@@ -1,7 +1,7 @@
 
 resource "azurerm_resource_group" "storage-rg" {
   name = "Storage-rg"
-  location = "centralus" 
+  location = "eastus" 
 }
 
 module "storageacct1" {
