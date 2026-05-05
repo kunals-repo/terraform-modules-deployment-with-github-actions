@@ -7,7 +7,6 @@ on:
       - main
     paths:
       - "storage-main.tf"
-      - "terraform.tfvars"
       
 
 jobs:
