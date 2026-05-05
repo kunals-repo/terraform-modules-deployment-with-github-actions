@@ -62,3 +62,18 @@ module "storageacct3-container2-blob2" {
   container-name = module.storageacct1-container1.container-name
   blob-source = var.blob-source2
 }
+
+// creating containers , blobs in casualleaves storage account
+module "storageacct2-container3" {
+  source = "./Modules/Containers"
+  container-name = var.container-name3
+  storageaccount-id = module.storageacct2.storageacct-id
+}
+module "storageacct2-container3-blob3" {
+  source = "./Modules/Blobs"
+  blob-name = var.blob-name3
+  storageacct-name =module.storageacct2.storageacct-name
+  container-name = module.storageacct2-container3.container-name
+  blob-source = var.blob-source3
+  
+}
