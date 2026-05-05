@@ -1,3 +1,3 @@
 
-storage-name = "Carsalesdata"
+storage-name = "carsalesdata"
 replication-type = "LRS"
