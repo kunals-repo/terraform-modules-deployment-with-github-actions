@@ -4,3 +4,6 @@ replication-type = "LRS"
 container-name = "earnleaves"
 blob-name = "jan2026"
 blob-source = "/home/kunal/actions-runner/jan2026.text"
+
+storage-name2 = "annualsickleavesdata"
+replication-type2 = "LRS"
