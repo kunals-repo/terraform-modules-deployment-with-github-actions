@@ -15,9 +15,28 @@ variable "blob-source" {
     type = string
 }
 
+//--------------------------------
 variable "storage-name2" {
     type = string
 }
 variable "replication-type2" {
+    type = string
+}
+
+//--------------------------------
+
+variable "storage-name3" {
+    type = string
+}
+variable "replication-type3" {
+    type = string
+}
+variable "container-name2" {
+    type = string
+}
+variable "blob-name2" {
+    type = string
+}
+variable "blob-source2" {
     type = string
 }
