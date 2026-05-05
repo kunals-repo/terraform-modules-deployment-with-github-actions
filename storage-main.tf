@@ -23,3 +23,11 @@ module "storageacct1-container1-blob1" {
   container-name = module.storageacct1-container1.container-name
   blob-source = var.blob-source
 }
+
+module "storageacct2" {
+    source = "./Modules/StorageAcct"
+    rg-name = azurerm_resource_group.storage-rg.name
+    rg-location = azurerm_resource_group.storage-rg.location
+    storage-name = var.storage-name2
+    replication-type = var.replication-type2
+}
