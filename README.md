@@ -103,12 +103,12 @@ A **remote backend** is configured to securely manage the Terraform state file, 
 ## 🧠 Key Learnings
 
 * Using Terraform modules for scalable infrastructure
-* 
+  
 * Integrating Terraform with GitHub Actions
-* 
+  
 * Configuring Terraform remote backend in Azure
-* 
+  
 * Setting up and using a self-hosted runner
-* 
+  
 * Automating Azure resource deployment with CI/CD
 
